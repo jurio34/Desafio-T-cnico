@@ -52,4 +52,4 @@ npm run dev
 ---
 
 ### Por quê foi feita a escolha do Hard Delete(Exclusão do banco de Dados):
-# - Como decisão arquitetural, essa escolha foi baseada no escopo do desafio. Como o minimundo do banco de dados é pequeno, isso acaba por não afetar a performance executando uma query de deleção, mas em cenários de produção o soft delete é indicado pela sua observabilidade, mantendo logs em caso de auditoria e etc.
+- Como decisão arquitetural, essa escolha foi baseada no escopo do desafio. Como o minimundo do banco de dados é pequeno, isso acaba por não afetar a performance executando uma query de deleção, mas em cenários de produção o soft delete é indicado pela sua observabilidade, mantendo logs em caso de auditoria e etc.
