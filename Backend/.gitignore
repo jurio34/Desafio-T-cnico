@@ -1,0 +1,17 @@
+# Pastas de Build e Compilação
+bin/
+obj/
+
+# Banco de Dados SQLite local (gerados em tempo de execução)
+coworking.db
+coworking.db-shm
+coworking.db-wal
+*.db
+
+# Configurações da IDE (VS Code / Visual Studio)
+.vscode/
+.vs/
+*.user
+
+# Arquivos temporários e logs
+*.log
